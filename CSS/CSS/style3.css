@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto' , sans-serif;
+}
+/* This defines the default setting for links.
+a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}*/
+a{
+    color: black;
+}
+a:visited {
+    color: purple;
+}
+a:hover , a:focus{
+    color: dodgerblue;
+    /* we can also add opacity ; element to increase transparency while keeping the color of links same and can still notice the difference while hovering over it. and in colors hsl can take fourth value to define opacity. */
+}
+a:active {
+    color: red;
+}
